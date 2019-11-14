@@ -1,0 +1,35 @@
+html{
+    background-image: url("assets/background.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    font-size: 13vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration-line: underline;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+    color: red;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 30vh;
+}
+p{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: black;
+    font-size: 7vh;
+    padding: 0px;
+    margin: 0px;
+}
+#clock{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 10vh;
+}
