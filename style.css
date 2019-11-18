@@ -109,3 +109,206 @@ h4{
     border-radius: 5px;
     margin: 0px;
 }
+#register{
+    margin: 0px;
+    padding: 0px;
+    background-color: #EF3E4A;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-family: Futura;
+}
+#registerFlex{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    margin: auto;
+    color: white;
+}
+#registerFlex div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#registerFlex div a{
+    margin-left: 2vw;
+}
+#workshops{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-family: Futura;
+}
+#workshopsFlex{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    margin: auto;
+    color: black;
+}
+#workshopsFlex h1{
+    color: #EF3E4A;
+
+}
+#schedule{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-family: Futura;
+}
+#scheduleFlex{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    margin: auto;
+    color: black;
+}
+#scheduleFlex h1{
+    color: #EF3E4A;
+
+}
+#faq{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-family: Futura;
+}
+#faqFlex{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    margin: auto;
+    color: black;
+    margin-bottom: 5vh;
+}
+#faqRow{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+}
+#faqElement{
+    display: flex;
+    flex-direction: column;
+    width: 26vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+#faqFlex h1{
+    color: #EF3E4A;
+    margin-bottom: .5vh;
+}
+#team{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-family: Futura;
+}
+#teamFlex{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    margin: auto;
+    color: black;
+    margin-bottom: 5vh;
+}
+#directors{
+    display: flex;
+    flex-direction: row;
+}
+#directorElement{
+    display: flex;
+    flex-direction: column;
+    width: 26vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    text-align: center;
+    align-items: center;
+}
+#directorElement img{
+    max-width: 10vw;
+    border-radius: 100%;
+}
+#directorElement h3{
+    max-width: 7vw;
+}
+#ourTeam{
+    margin: 0px;
+    padding: 0px;
+    background-color: #EF3E4A;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-family: Futura;
+}
+#ourTeamFlex{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    margin: auto;
+    color: white;
+    margin-bottom: 5vh;
+}
+#footer{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(54,54,52);
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-family: Futura;
+}
+#footerFlex{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    margin: auto;
+    color: white;
+}
+#sponsors{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-family: Futura;
+}
+#sponsorsFlex{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    margin: auto;
+    color: black;
+    margin-bottom: 5vh;
+}
+#tierOneSponsors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#tierOneSponsors img{
+    max-width: 15vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
