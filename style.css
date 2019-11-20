@@ -333,7 +333,8 @@ h4{
         width: 100%;
     }
     #directorElement img{
-        max-width: 50%;
+        max-width: 5
+        0%;
     }
     #faqRow{
         flex-direction: column;
