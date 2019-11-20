@@ -326,6 +326,13 @@ h4{
     }
 }
 @media only screen and (max-width: 900px){
+    #faqRow{
+        flex-direction: column;
+        text-align: center;
+    }
+    #faqElement{
+        width: 100%;
+    }
     #banner div h4{
         text-align: center;
     }
