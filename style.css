@@ -326,6 +326,15 @@ h4{
     }
 }
 @media only screen and (max-width: 900px){
+    #directors{
+        flex-direction: column;
+    }
+    #directorElement{
+        width: 100%;
+    }
+    #directorElement img{
+        max-width: 50%;
+    }
     #faqRow{
         flex-direction: column;
         text-align: center;
