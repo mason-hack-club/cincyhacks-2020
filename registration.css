@@ -27,6 +27,10 @@ input {
     text-indent: 1vw;
     font-family: Futura;
 }
+select{
+    text-indent: .5vw;
+    font-family: Futura;
+}
 form{
     font-family: Futura;
 }
