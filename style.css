@@ -333,11 +333,14 @@ h4{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 #tierOneSponsors img{
-    max-width: 15vw;
+    max-width: 15rem;
     margin-left: 2vw;
     margin-right: 2vw;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
 }
 #registerFlex p a:link{
     color: white;
