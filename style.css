@@ -225,20 +225,60 @@ h4{
 #directors{
     display: flex;
     flex-direction: row;
+    max-width: 100%;
+    flex-wrap:wrap;
+    align-content: center;
+    justify-content:center;
 }
 #directorElement{
     display: flex;
     flex-direction: column;
-    width: 26vw;
     margin-left: 1vw;
     margin-right: 1vw;
     text-align: center;
     align-items: center;
+    width: 9rem;
+    justify-content:center;
+    margin-bottom: 5vh;
+    height: 100%;
 }
 #directorElement a img{
-    max-width: 10vw;
+    max-width: 9rem;
     border-radius: 100%;
 }
+#directorElement p{
+    margin:0;
+}
+#coordinators{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    flex-wrap:wrap;
+    align-content: center;
+    justify-content:center;
+
+}
+#coordinatorElement{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    text-align: center;
+    align-items: center;
+    width: 10rem;
+    justify-content:center;
+    margin-bottom: 5vh;
+    height: 100%;
+
+}
+#coordinatorElement a img{
+    max-width: 9rem;
+    border-radius: 100%;
+}
+#coordinatorElement p{
+    margin: 0;
+}
+
 #ourTeam{
     margin: 0px;
     padding: 0px;
@@ -320,21 +360,8 @@ h4{
     #banner div h4{
         margin-bottom: 2vh;
     }
-    #directorElement{
-        width: 17%;
-        font-size: 70%;
-    }
 }
 @media only screen and (max-width: 900px){
-    #directors{
-        flex-direction: column;
-    }
-    #directorElement{
-        width: 100%;
-    }
-    #directorElement a img{
-        max-width: 70%;
-    }
     #faqRow{
         flex-direction: column;
         text-align: center;
